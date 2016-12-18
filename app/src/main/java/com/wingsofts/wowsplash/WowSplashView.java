@@ -48,15 +48,9 @@ public class WowSplashView extends View {
 
   private long mDuration = 3000;
   private int mWidth;
-  private int mHeight;
   private float mTitleY;
   private float mFinalTitleY = mTowerHeight + 100;
 
-  private Bitmap mLayerBitmap;
-  private Paint mBitmapPaint;
-  private boolean canDrawLayer = false;
-
-  private Bitmap mBitmap;
   private OnEndListener mListener;
   private int mAlpha;
 
@@ -77,8 +71,6 @@ public class WowSplashView extends View {
       setLayerType(View.LAYER_TYPE_SOFTWARE, null);
     }
     mPaint = new Paint();
-    mBitmapPaint = new Paint();
-    mLayerBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.zz);
 
     //init TowerPath
 
@@ -98,7 +90,6 @@ public class WowSplashView extends View {
   @Override protected void onSizeChanged(int w, int h, int oldw, int oldh) {
     super.onSizeChanged(w, h, oldw, oldh);
     mWidth = w;
-    mHeight = h;
   }
 
   private void setupCouldPath(Path path, int pos) {
