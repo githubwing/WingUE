@@ -7,7 +7,7 @@ A Woooow Splash.. 一个让你的哇哇哇哇闪屏页。
 这个Splash分为两部分。
 ## Part I
 
-第一部分是使用SVG动画实现的，你可以使用**Vector Magic**将一个普通图片转换为SVG图片。
+第一部分是使用SVG动画实现的，你可以使用**Vector Magic**将一个普通图片转换为SVG图片,不过由于SVG大小的问题**没有进行适配**，思路最重要嘛哈哈哈。
 
 然后配合PathMeasure来实现。
 
