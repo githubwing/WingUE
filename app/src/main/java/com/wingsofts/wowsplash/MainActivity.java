@@ -14,11 +14,6 @@ public class MainActivity extends AppCompatActivity {
     mWowSplashView = (WowSplashView) findViewById(R.id.wowSplash);
     mWowView = (WowView) findViewById(R.id.wowView);
 
-    mWowSplashView.setOnClickListener(new View.OnClickListener() {
-      @Override public void onClick(View view) {
-        mWowSplashView.startAnimate();
-      }
-    });
 
     mWowSplashView.startAnimate();
 
