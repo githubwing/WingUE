@@ -1,7 +1,7 @@
-# WowSplash
+# WowSplash [中文说明](https://github.com/githubwing/WowSplash/blob/master/README_CN.md)
+
 a woooow splash which like clouds disappear in the sky。
 
-# [中文说明](https://github.com/githubwing/WowSplash/blob/master/README_CN.md)
 
 ![image](https://github.com/githubwing/WowSplash/raw/master/img/img.gif)
 
@@ -25,7 +25,7 @@ Merge view and image with PorterDuffXfermode.
 
 
 
-如果你觉得还不错，欢迎Star. 欢迎加入我的Android酒馆来喝酒:425983695
+欢迎加入我的Android酒馆来喝酒:425983695
 
 
 
