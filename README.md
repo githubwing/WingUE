@@ -1,5 +1,5 @@
 # WowSplash
-A Woooow Splash Which like clouds disappear in the sky。 铁塔融云！ 一个让你的哇哇哇哇闪屏页。
+a woooow splash which like clouds disappear in the sky。 铁塔融云！ 一个让你的哇哇哇哇闪屏页。
 
 ![image](https://github.com/githubwing/WowSplash/raw/master/img/img.gif)
 
