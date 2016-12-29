@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/bg1"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="Android Wing"
+          android:textColor="#000"
+          android:textSize="30sp"
+          />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/bg2"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="Android Wing"
+          android:textColor="#fff"
+          android:textSize="30sp"
+          />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/bg3"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="Android Wing"
+          android:textColor="#fff"
+          android:textSize="30sp"
+          />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/bg4"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:text="Android Wing"
+          android:textColor="#000"
+          android:textSize="30sp"
+          />
+    </RelativeLayout>
+  </LinearLayout>
+
+  <com.wingsofts.wingue.wowsplash.WowSplashView
+      android:id="@+id/wowSplash"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+
+  <com.wingsofts.wingue.wowsplash.WowView
+      android:id="@+id/wowView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone"
+      />
+
+</RelativeLayout>

@@ -1,8 +1,7 @@
-package com.wingsofts.wowsplash.support;
+package com.wingsofts.wingue.wowsplash.support;
 
 import android.graphics.Path;
 import android.graphics.PointF;
-import android.net.ParseException;
 
 public class SvgPathParser {
 
