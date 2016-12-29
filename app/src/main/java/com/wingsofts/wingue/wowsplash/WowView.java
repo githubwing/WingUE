@@ -39,7 +39,7 @@ public class WowView extends View {
     public WowView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         setLayerType(View.LAYER_TYPE_HARDWARE, null);
-        mDstBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.zz);
+        mDstBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.wow_splash_shade);
         mPaint = new Paint();
     }
 

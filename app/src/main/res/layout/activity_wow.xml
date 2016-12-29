@@ -21,7 +21,7 @@
           android:layout_width="match_parent"
           android:layout_height="200dp"
           android:scaleType="centerCrop"
-          android:src="@drawable/bg1"
+          android:src="@drawable/wow_splash_bg1"
           />
       <TextView
           android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
           android:layout_width="match_parent"
           android:layout_height="200dp"
           android:scaleType="centerCrop"
-          android:src="@drawable/bg2"
+          android:src="@drawable/wow_splash_bg2"
           />
       <TextView
           android:layout_width="wrap_content"
@@ -60,7 +60,7 @@
           android:layout_width="match_parent"
           android:layout_height="200dp"
           android:scaleType="centerCrop"
-          android:src="@drawable/bg3"
+          android:src="@drawable/wow_splash_bg3"
           />
       <TextView
           android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
           android:layout_width="match_parent"
           android:layout_height="200dp"
           android:scaleType="centerCrop"
-          android:src="@drawable/bg4"
+          android:src="@drawable/wow_splash_bg4"
           />
       <TextView
           android:layout_width="wrap_content"

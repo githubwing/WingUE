@@ -10,17 +10,21 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".wowsplash.WowActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".elesearch.EleActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".elesearch.EleSearchActivity"
+            android:theme="@style/Translucent"
+           ></activity>
     </application>
 
 </manifest>
