@@ -1,26 +1,18 @@
-# WowSplash [中文说明](https://github.com/githubwing/WowSplash/blob/master/README_CN.md)
+# 特效集合
 
-a woooow splash which like clouds disappear in the sky。
+Hi，这里是一系列特效集合。
+
+
+## 1. WowSplash[具体实现链接](http://androidwing.net/index.php/160)
+
 
 
 ![image](https://github.com/githubwing/WowSplash/raw/master/img/img.gif)
 
-Thanks For [GAStuio](https://github.com/Ajian-studio/) SvgPathParser
 
-## Part I
+## 2. 饿了么搜索栏
 
-
-I used the **Vector Magic**（only for windows） turn PNG into SVG. Then turn SVG into Path and use PathMeasure done this animation.
-
-## Part II
-
-In fact The cloud is a image.
-
-![image](https://github.com/githubwing/WowSplash/raw/master/img/zzz.png)
-
-Merge view and image with PorterDuffXfermode.
-
-![image](https://github.com/githubwing/WowSplash/raw/master/img/xfermode.png)
+待添加
 
 
 
