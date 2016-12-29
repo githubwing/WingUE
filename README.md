@@ -7,12 +7,13 @@ Hi，这里是一系列特效集合。
 
 
 
-![image](https://github.com/githubwing/WowSplash/raw/master/img/img.gif)
+![image](https://github.com/githubwing/WingUE/raw/master/img/img.gif)
 
 
 ## 2. 饿了么搜索栏
 
-待添加
+![image](https://github.com/githubwing/WingUE/raw/master/img/img_ele.gif)
+
 
 
 
