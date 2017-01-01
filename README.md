@@ -10,7 +10,7 @@ Hi，这里是一系列特效集合。
 ![image](https://github.com/githubwing/WingUE/raw/master/img/img.gif)
 
 
-## 2. 饿了么搜索栏
+## 2. 饿了么搜索栏[具体实现链接](http://androidwing.net/index.php/172)
 
 ![image](https://github.com/githubwing/WingUE/raw/master/img/img_ele.gif)
 
