@@ -17,6 +17,7 @@ public class EleSearchActivity extends AppCompatActivity {
     private TextView mSearchTxt;
     private FrameLayout mContentFrame;
     private ImageView mArrowImg;
+    private boolean finishing;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +54,8 @@ public class EleSearchActivity extends AppCompatActivity {
         mSearchBGTxt.setY(mSearchBGTxt.getY() + translateY);
         mHintTxt.setY(mSearchBGTxt.getY() + (mSearchBGTxt.getHeight() - mHintTxt.getHeight()) / 2);
         mSearchTxt.setY(mSearchBGTxt.getY() + (mSearchBGTxt.getHeight() - mSearchTxt.getHeight()) / 2);
-        final ValueAnimator translateVa = ValueAnimator.ofFloat(mSearchBGTxt.getY(), mSearchBGTxt.getY() - 100);
+        float top = getResources().getDisplayMetrics().density * 20;
+        final ValueAnimator translateVa = ValueAnimator.ofFloat(mSearchBGTxt.getY(), top);
         translateVa.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator valueAnimator) {
@@ -95,7 +97,10 @@ public class EleSearchActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        performExitAnimation();
+        if (!finishing){
+            finishing = true;
+            performExitAnimation();
+        }
     }
 
     private void performExitAnimation() {
