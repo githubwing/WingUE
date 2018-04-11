@@ -24,7 +24,8 @@
         <activity
             android:name=".elesearch.EleSearchActivity"
             android:theme="@style/Translucent"
-           ></activity>
+            android:windowSoftInputMode="stateHidden"
+            />
     </application>
 
 </manifest>

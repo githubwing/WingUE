@@ -33,11 +33,17 @@
 
 
         <TextView
+            android:id="@+id/tv_hint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="搜索商家、商品名称" />
+            android:includeFontPadding="false"
+            android:text="搜索商家、商品名称"
+            android:textColor="#bebebe"
+            android:textSize="13sp"
+            />
+
         <TextView
             android:gravity="center"
             android:textColor="#fff"
