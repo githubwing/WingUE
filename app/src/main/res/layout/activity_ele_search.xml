@@ -4,58 +4,73 @@
     android:id="@+id/activity_ele_search"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.wingsofts.wingue.elesearch.EleSearchActivity"
-    android:orientation="vertical">
+    >
 
-    <FrameLayout
-        android:background="#0096FF"
-        android:id="@+id/frame_bg"
+  <FrameLayout
+      android:id="@+id/frame_bg"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:background="#0096FF"
+      android:padding="10dp"
+      >
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|left"
+        android:src="@drawable/arrow_right"
+        />
+
+    <TextView
+        android:id="@+id/tv_search_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ele_search_bg"
+        android:gravity="center"
         android:padding="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="150dp">
-        <ImageView
-            android:id="@+id/iv_arrow"
-            android:layout_gravity="center|left"
-            android:src="@drawable/arrow_right"
-            android:layout_width="20dp"
-            android:layout_height="20dp" />
-        <TextView
-            android:id="@+id/tv_search_bg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/ele_search_bg"
-            android:gravity="center"
-            android:padding="10dp" />
+        />
 
 
-        <TextView
-            android:id="@+id/tv_hint"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="搜索商家、商品名称" />
+    <EditText
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:gravity="center"
+        android:imeOptions="actionSearch"
+        android:includeFontPadding="false"
+        android:text="搜索商家、商品名称"
+        android:textColor="#bebebe"
+        android:textSize="13sp"
+        />
 
-        <TextView
-            android:layout_marginRight="5dp"
-            android:id="@+id/tv_search"
-            android:textColor="#fff"
-            android:layout_gravity="center|right"
-            android:text="搜索"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginRight="5dp"
+        android:text="搜索"
+        android:textColor="#fff"
+        />
+  </FrameLayout>
 
-    </FrameLayout>
-    <FrameLayout
-        android:id="@+id/frame_content_bg"
-        android:background="#fff"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:text="我是搜索页"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </FrameLayout>
+  <FrameLayout
+      android:id="@+id/frame_content_bg"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#fff"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="我是搜索页"
+        />
+  </FrameLayout>
 </LinearLayout>
