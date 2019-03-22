@@ -1,27 +1,16 @@
-# 特效集合
+# Special Effect Collection
 
-Hi，这里是一系列特效集合。
-
-[English](README_EN.md)
-
-## 1. WowSplash[具体实现链接](http://androidwing.net/index.php/160)
-
-
+## 1. WowSplash
 
 ![image](https://github.com/githubwing/WingUE/raw/master/img/img.gif)
 
+[Implementation](http://androidwing.net/index.php/160)
 
-## 2. 饿了么搜索栏[具体实现链接](http://androidwing.net/index.php/172)
+## 2. Eleme Search Bar
 
 ![image](https://github.com/githubwing/WingUE/raw/master/img/img_ele.gif)
 
-
-
-
-
-欢迎加入我的Android酒馆来喝酒:425983695
-
-
+[Implementation](http://androidwing.net/index.php/172)
 
 # License
 
